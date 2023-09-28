@@ -6,31 +6,45 @@
     font-family: 'Rubik', sans-serif;   
 }
 
-html{
+html {
     scroll-behavior: smooth;
-}
-
-.main{
+    margin: 0px;
+    height: 100%;
     width: 100%;
-    height: 2600px;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+ }
+
+#main{
+    width: 100%;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 
-.main img{
+#main img{
     height: 80px;
 }
 
-.topper{
+#topper{
     width: 100%;
     height: 90px;
     background-color: black;
+    margin-top: -65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    box-shadow: 1px 0 1px white;
 }
 
 .logo{
-    padding: 0 65px;
+    padding-left: 65px;
 }
 
 .odn ul li{
